@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 235, 220);
+}
+
+/* Navbar Section Start */
+
+#toggler{
+    background-color: rgb(245, 235, 220) !important;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between !important;
+    border-bottom: 0.1px solid rgb(65, 61, 55);
+}
+
+#navbar2{
+    font-size: 16px;
+    font-weight: 1000;
+    line-height: 30px;
+}
+#navbar2 a{
+    color: rgb(80, 35, 20);
+    font-weight: 500;
+}
+
+/* Navbar Section End */
+
+/* Section 01 Start */
+
+#hero-section {
+    height: 400px;
+    margin-top: 50px;
+    color: #502314;
+    display: flex;
+    width: 100%;
+}
+
+#text-section-hero {
+    width: 100%;
+    height: 100%;
+}
+
+#text-section-hero h1 {
+    font-size: 5.0rem;
+    font-family: fantasy;
+}
+
+#first-button {
+    font-size: 1.3rem;
+    font-weight:bold;
+    padding: 5px 15px;
+    width: 350px;
+    display: block;
+}
+
+#second-button {
+    font-size: 1.3rem;
+    font-weight:bold;
+    padding: 5px 15px;
+    width: 350px;
+    margin-top: 2%;
+}
+/* Section 01 End */
+
+/* Section 02 Start */
+#section2{
+    display: flex !important;
+    justify-content: center !important;
+    border-radius: 200px !important;
+}
+.col{
+    display: flex !important;
+    justify-content: center;
+    width: 700px !important;
+    border-radius: 200px !important;
+}
+.card-title {
+    color: #502314 !important;
+    font-weight: 900 !important;
+}
+
+#section2 a{
+    color: #502314 !important;
+}
+/* Section 02 End */
+
+/* Section 03 Start */
+#footer-section{
+    background-color: rgb(230, 222, 209);
+}
+
+#section3 {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    color: #502314;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#text-section3 h1 {
+    font-size: 4.0rem;
+    font-family: fantasy;
+    width: 50%;
+}
+#section3-img{
+    border-bottom: 2px solid black;
+    width: 50%;
+    height: 400px;
+    margin-top: -80px;
+    overflow: hidden;
+}
+#footer-text{
+    height: 50px;
+    background-color: #502314;
+    color: white;
+}
+#footer-text a{
+    background-color: #502314;
+    color: white;
+}
+#ending-section-text a{
+    color: #502314 !important;
+}
+/* Section 03 End */
